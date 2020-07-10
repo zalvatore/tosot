@@ -7,7 +7,7 @@ function App() {
         const [types, settypes] = useState([]);
 
     useEffect(()=>{
-        fetch("http://tosotweb.h38jkb5qs3.us-west-2.elasticbeanstalk.com/inven/type/",{
+        fetch("https://tosot.mx/inven/type/",{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
