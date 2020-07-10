@@ -5,7 +5,7 @@ function ClaseList(props){
     const [equipos, setEquipos] = useState([]);
 
     useEffect(()=>{
-        fetch("http://tosotweb.h38jkb5qs3.us-west-2.elasticbeanstalk.com/inven/inventario/",{
+        fetch("https://tosot.mx/inven/inventario/",{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
